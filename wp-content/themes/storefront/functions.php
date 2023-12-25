@@ -78,12 +78,9 @@ if (version_compare(get_bloginfo('version'), '4.7.3', '>=') && (is_admin() || is
 function register_navwalker()
 {
 	require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
+	require_once get_template_directory() . '/custom-menu-walker.php';
 }
 add_action('after_setup_theme', 'register_navwalker');
-register_nav_menus([
-	'primary' => __('Primary Menu', 'thecalmtech'),
-]);
-
 
 function get_taged()
 {
