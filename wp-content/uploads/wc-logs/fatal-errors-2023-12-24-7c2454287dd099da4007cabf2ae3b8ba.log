@@ -1,0 +1,102 @@
+2023-12-24T10:57:49+00:00 CRITICAL Uncaught Error: Undefined constant "WP_HOME" in D:\laragon\www\phonebar-new\wp-content\themes\thecalmtech\header.php:108
+Stack trace:
+#0 D:\laragon\www\phonebar-new\wp-includes\template.php(790): require_once()
+#1 D:\laragon\www\phonebar-new\wp-includes\template.php(725): load_template('D:\\laragon\\www\\...', true, Array)
+#2 D:\laragon\www\phonebar-new\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 D:\laragon\www\phonebar-new\wp-content\themes\thecalmtech\homepage.php(7): get_header()
+#4 D:\laragon\www\phonebar-new\wp-includes\template-loader.php(106): include('D:\\laragon\\www\\...')
+#5 D:\laragon\www\phonebar-new\wp-blog-header.php(19): require_once('D:\\laragon\\www\\...')
+#6 D:\laragon\www\phonebar-new\index.php(17): require('D:\\laragon\\www\\...')
+#7 {main}
+  thrown in D:\laragon\www\phonebar-new\wp-content\themes\thecalmtech\header.php on line 108
+
+2023-12-24T10:58:35+00:00 CRITICAL Uncaught Error: Undefined constant "WP_HOME" in D:\laragon\www\phonebar-new\wp-content\themes\thecalmtech\header.php:108
+Stack trace:
+#0 D:\laragon\www\phonebar-new\wp-includes\template.php(790): require_once()
+#1 D:\laragon\www\phonebar-new\wp-includes\template.php(725): load_template('D:\\laragon\\www\\...', true, Array)
+#2 D:\laragon\www\phonebar-new\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 D:\laragon\www\phonebar-new\wp-content\themes\thecalmtech\homepage.php(7): get_header()
+#4 D:\laragon\www\phonebar-new\wp-includes\template-loader.php(106): include('D:\\laragon\\www\\...')
+#5 D:\laragon\www\phonebar-new\wp-blog-header.php(19): require_once('D:\\laragon\\www\\...')
+#6 D:\laragon\www\phonebar-new\index.php(17): require('D:\\laragon\\www\\...')
+#7 {main}
+  thrown in D:\laragon\www\phonebar-new\wp-content\themes\thecalmtech\header.php on line 108
+
+2023-12-24T10:58:41+00:00 CRITICAL Uncaught Error: Undefined constant "WP_HOME" in D:\laragon\www\phonebar-new\wp-content\themes\thecalmtech\header.php:108
+Stack trace:
+#0 D:\laragon\www\phonebar-new\wp-includes\template.php(790): require_once()
+#1 D:\laragon\www\phonebar-new\wp-includes\template.php(725): load_template('D:\\laragon\\www\\...', true, Array)
+#2 D:\laragon\www\phonebar-new\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 D:\laragon\www\phonebar-new\wp-content\themes\thecalmtech\404.php(11): get_header()
+#4 D:\laragon\www\phonebar-new\wp-includes\template-loader.php(106): include('D:\\laragon\\www\\...')
+#5 D:\laragon\www\phonebar-new\wp-blog-header.php(19): require_once('D:\\laragon\\www\\...')
+#6 D:\laragon\www\phonebar-new\index.php(17): require('D:\\laragon\\www\\...')
+#7 {main}
+  thrown in D:\laragon\www\phonebar-new\wp-content\themes\thecalmtech\header.php on line 108
+
+2023-12-24T10:59:09+00:00 CRITICAL Uncaught Error: Undefined constant "WP_HOME" in D:\laragon\www\phonebar-new\wp-content\themes\thecalmtech\header.php:108
+Stack trace:
+#0 D:\laragon\www\phonebar-new\wp-includes\template.php(790): require_once()
+#1 D:\laragon\www\phonebar-new\wp-includes\template.php(725): load_template('D:\\laragon\\www\\...', true, Array)
+#2 D:\laragon\www\phonebar-new\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 D:\laragon\www\phonebar-new\wp-content\themes\thecalmtech\homepage.php(7): get_header()
+#4 D:\laragon\www\phonebar-new\wp-includes\template-loader.php(106): include('D:\\laragon\\www\\...')
+#5 D:\laragon\www\phonebar-new\wp-blog-header.php(19): require_once('D:\\laragon\\www\\...')
+#6 D:\laragon\www\phonebar-new\index.php(17): require('D:\\laragon\\www\\...')
+#7 {main}
+  thrown in D:\laragon\www\phonebar-new\wp-content\themes\thecalmtech\header.php on line 108
+
+2023-12-24T11:03:45+00:00 CRITICAL Uncaught Error: Undefined constant "WP_HOME" in D:\laragon\www\phonebar-new\wp-content\themes\thecalmtech\header.php:108
+Stack trace:
+#0 D:\laragon\www\phonebar-new\wp-includes\template.php(790): require_once()
+#1 D:\laragon\www\phonebar-new\wp-includes\template.php(725): load_template('D:\\laragon\\www\\...', true, Array)
+#2 D:\laragon\www\phonebar-new\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 D:\laragon\www\phonebar-new\wp-content\themes\thecalmtech\homepage.php(7): get_header()
+#4 D:\laragon\www\phonebar-new\wp-includes\template-loader.php(106): include('D:\\laragon\\www\\...')
+#5 D:\laragon\www\phonebar-new\wp-blog-header.php(19): require_once('D:\\laragon\\www\\...')
+#6 D:\laragon\www\phonebar-new\index.php(17): require('D:\\laragon\\www\\...')
+#7 {main}
+  thrown in D:\laragon\www\phonebar-new\wp-content\themes\thecalmtech\header.php on line 108
+
+2023-12-24T11:04:40+00:00 CRITICAL Uncaught Error: Undefined constant "WP_HOME" in D:\laragon\www\phonebar-new\wp-content\themes\thecalmtech\header.php:108
+Stack trace:
+#0 D:\laragon\www\phonebar-new\wp-includes\template.php(790): require_once()
+#1 D:\laragon\www\phonebar-new\wp-includes\template.php(725): load_template('D:\\laragon\\www\\...', true, Array)
+#2 D:\laragon\www\phonebar-new\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 D:\laragon\www\phonebar-new\wp-content\themes\thecalmtech\homepage.php(7): get_header()
+#4 D:\laragon\www\phonebar-new\wp-includes\template-loader.php(106): include('D:\\laragon\\www\\...')
+#5 D:\laragon\www\phonebar-new\wp-blog-header.php(19): require_once('D:\\laragon\\www\\...')
+#6 D:\laragon\www\phonebar-new\index.php(17): require('D:\\laragon\\www\\...')
+#7 {main}
+  thrown in D:\laragon\www\phonebar-new\wp-content\themes\thecalmtech\header.php on line 108
+
+2023-12-24T11:06:10+00:00 CRITICAL Uncaught Error: Undefined constant "WP_HOME" in D:\laragon\www\phonebar-new\wp-content\themes\thecalmtech\header.php:108
+Stack trace:
+#0 D:\laragon\www\phonebar-new\wp-includes\template.php(790): require_once()
+#1 D:\laragon\www\phonebar-new\wp-includes\template.php(725): load_template('D:\\laragon\\www\\...', true, Array)
+#2 D:\laragon\www\phonebar-new\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 D:\laragon\www\phonebar-new\wp-content\themes\thecalmtech\template-aboutus.php(3): get_header()
+#4 D:\laragon\www\phonebar-new\wp-includes\template-loader.php(106): include('D:\\laragon\\www\\...')
+#5 D:\laragon\www\phonebar-new\wp-blog-header.php(19): require_once('D:\\laragon\\www\\...')
+#6 D:\laragon\www\phonebar-new\index.php(17): require('D:\\laragon\\www\\...')
+#7 {main}
+  thrown in D:\laragon\www\phonebar-new\wp-content\themes\thecalmtech\header.php on line 108
+
+2023-12-24T11:06:36+00:00 CRITICAL Uncaught Error: Undefined constant "WP_HOME" in D:\laragon\www\phonebar-new\wp-content\themes\thecalmtech\header.php:108
+Stack trace:
+#0 D:\laragon\www\phonebar-new\wp-includes\template.php(790): require_once()
+#1 D:\laragon\www\phonebar-new\wp-includes\template.php(725): load_template('D:\\laragon\\www\\...', true, Array)
+#2 D:\laragon\www\phonebar-new\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 D:\laragon\www\phonebar-new\wp-content\themes\thecalmtech\page.php(16): get_header()
+#4 D:\laragon\www\phonebar-new\wp-includes\template-loader.php(106): include('D:\\laragon\\www\\...')
+#5 D:\laragon\www\phonebar-new\wp-blog-header.php(19): require_once('D:\\laragon\\www\\...')
+#6 D:\laragon\www\phonebar-new\index.php(17): require('D:\\laragon\\www\\...')
+#7 {main}
+  thrown in D:\laragon\www\phonebar-new\wp-content\themes\thecalmtech\header.php on line 108
+
+2023-12-24T16:29:15+00:00 CRITICAL syntax error, unexpected end of file in D:\laragon\www\phonebar-new\wp-content\themes\thecalmtech\header.php on line 761
+
+2023-12-24T16:31:47+00:00 CRITICAL syntax error, unexpected end of file in D:\laragon\www\phonebar-new\wp-content\themes\thecalmtech\header.php on line 762
+
+2023-12-24T17:47:54+00:00 CRITICAL syntax error, unexpected 'do_action' (T_STRING) in D:\laragon\www\phonebar-new\wp-content\themes\thecalmtech\woocommerce\content-product.php on line 66
+
