@@ -226,14 +226,15 @@ if ($site_info['logo']) {
 						<div class="main-nav-center">
 							<nav class="text-start">
 								<?php
+								
 								// $main_menu = array(
 								// 	'container' => '',
 								// 	'menu' => 'Main Menu',
 								// 	'items_wrap' => '<ul id="main-menu" class="sm pixelstrap sm-horizontal">%3$s</ul>',
 								// 	'walker' => new Custom_Menu_Walker(),
 								// );
+								// wp_nav_menu($main_menu);
 
-								wp_nav_menu($main_menu);
 								?>
 								<ul id="main-menu" class="sm pixelstrap sm-horizontal">
 									<li>
@@ -513,23 +514,6 @@ if ($site_info['logo']) {
 							</nav>
 						</div>
 
-						<!-- <div class="main-nav-center">
-							<nav class="text-start">
-								<?php
-								wp_nav_menu([
-									'menu' => 'Main Menu',
-									'menu_id' => '',
-									'depth' => 3,
-									'container' => '',
-									'container_class' => '',
-									'container_id' => '',
-									'menu_class' => 'sm pixelstrap sm-horizontal',
-									'fallback_cb' => 'WP_Bootstrap_Navwalker::fallback',
-									'walker' => new WP_Bootstrap_Navwalker(),
-								]);
-								?>
-							</nav>
-						</div> -->
 					</div>
 				</div>
 			</div>
