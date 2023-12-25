@@ -52,7 +52,6 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 	<?php wp_head(); ?>
 </head>
-
 <?php
 $site_info = get_field('general_setting', 'option');
 if ($site_info['logo']) {
@@ -106,13 +105,20 @@ if ($site_info['logo']) {
 							</div>
 							<div class="brand-logo">
 								<?php if ($logo) { ?>
-									<a href="/" title="<?php bloginfo('name'); ?>">
+									<a href="<?php echo WP_HOME; ?>" title="<?php bloginfo('name'); ?>">
 										<img src="<?php echo $logo; ?>" class="logo-img img-fluid blur-up lazyloaded" alt="<?php bloginfo('name'); ?>">
 									</a>
 								<?php } ?>
 							</div>
 						</div>
 						<div>
+							<!-- <form class="form_search" role="form">
+								<input id="query search-autocomplete" type="search" placeholder="Search any Device or Gadgets..." class="nav-search nav-search-field" aria-expanded="true">
+								<button type="submit" name="nav-submit-button" class="btn-search">
+									<i class="ti-search"></i>
+								</button>
+								
+							</form> -->
 							<?php dynamic_sidebar('main-sidebar-widget-area'); ?>
 						</div>
 						<div class="menu-right pull-right">
@@ -225,21 +231,11 @@ if ($site_info['logo']) {
 					<div class="col-xl-9">
 						<div class="main-nav-center">
 							<nav class="text-start">
-								<?php
-								// $main_menu = array(
-								// 	'container' => '',
-								// 	'menu' => 'Main Menu',
-								// 	'items_wrap' => '<ul id="main-menu" class="sm pixelstrap sm-horizontal">%3$s</ul>',
-								// 	'walker' => new Custom_Menu_Walker(),
-								// );
-
-								wp_nav_menu($main_menu);
-								?>
 								<ul id="main-menu" class="sm pixelstrap sm-horizontal">
 									<li>
 										<div class="mobile-back text-end">Back<i class="fa fa-angle-right ps-2" aria-hidden="true"></i></div>
 									</li>
-									<li><a href="/">Home</a></li>
+									<li><a href="">Home</a></li>
 									<li>
 										<a href="/about-us/">About</a>
 									</li>
@@ -509,7 +505,7 @@ if ($site_info['logo']) {
 									</li>
 									<li><a href="/articles/">Article</a>
 									</li>
-								</ul> 
+								</ul>
 							</nav>
 						</div>
 
