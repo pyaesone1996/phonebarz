@@ -14,7 +14,6 @@
 						<div class="footer-title">
 							<h4>Keep in touch</h4>
 						</div>
-
 						<ul class="contact-list">
 							<li><i class="fa fa-map-marker"></i>No.133/A (1st Floor), Seik Kan Thar Street (Lower Block), Kyauktada Township, Yangon, Myanmar, 11181
 							</li>
@@ -139,9 +138,6 @@
 
 <!-- feather icon js-->
 <script src="<?php echo get_template_directory_uri() . '/assets/js/feather.min.js' ?> "></script>
-
-<!-- Timer js-->
-<script src="<?php echo get_template_directory_uri() . '/assets/js/timer.js' ?>"></script>
 
 <!-- Bootstrap Notification js-->
 <script src="<?php echo get_template_directory_uri() . '/assets/js/bootstrap-notify.min.js' ?>"></script>

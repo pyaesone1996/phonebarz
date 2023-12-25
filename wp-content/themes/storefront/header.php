@@ -105,7 +105,7 @@ if ($site_info['logo']) {
 							</div>
 							<div class="brand-logo">
 								<?php if ($logo) { ?>
-									<a href="<?php echo WP_HOME; ?>" title="<?php bloginfo('name'); ?>">
+									<a href="/" title="<?php bloginfo('name'); ?>">
 										<img src="<?php echo $logo; ?>" class="logo-img img-fluid blur-up lazyloaded" alt="<?php bloginfo('name'); ?>">
 									</a>
 								<?php } ?>
