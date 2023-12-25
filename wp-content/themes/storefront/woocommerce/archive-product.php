@@ -103,6 +103,6 @@ do_action( 'woocommerce_after_main_content' );
  * @hooked woocommerce_get_sidebar - 10
  */
 do_action( 'woocommerce_sidebar' );
-echo do_shortcode('[wcpf_filters id="213"]');
+echo 'here';
 
 get_footer( 'shop' );

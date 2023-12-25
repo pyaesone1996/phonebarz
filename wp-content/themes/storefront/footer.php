@@ -3,26 +3,18 @@
 
 ?>
 </div><!-- end main -->
-<?php
-$site_info = get_field('general_setting', 'option');
-if ($site_info['logo']) {
-	$logo = $site_info['logo'];
-} else {
-	$logo = ASSET_URL . 'images/logo.png';
-}
-?>
+
 <footer class="dark-footer footer-style-1">
 	<section class="section-b-space darken-layout">
 		<div class="container">
 			<div class="row footer-theme partition-f">
 				<div class="col-lg-4 col-md-6 sub-title">
-					<div class="footer-title footer-mobile-title">
-						<h4>about</h4>
-					</div>
+
 					<div class="footer-contant">
-						<div class="footer-logo"><img src="<?php echo  $logo; ?>" alt=""></div>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-							ut labore</p>
+						<div class="footer-title">
+							<h4>Keep in touch</h4>
+						</div>
+
 						<ul class="contact-list">
 							<li><i class="fa fa-map-marker"></i>No.133/A (1st Floor), Seik Kan Thar Street (Lower Block), Kyauktada Township, Yangon, Myanmar, 11181
 							</li>
@@ -74,9 +66,7 @@ if ($site_info['logo']) {
 							<h4>follow us</h4>
 						</div>
 						<div class="footer-contant">
-							<p class="mb-cls-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-								do eiusmod tempor incididunt
-								ut labore</p>
+
 							<form class="form-inline">
 								<div class="form-group me-sm-3 mb-2">
 									<label for="inputPassword2" class="sr-only">Password</label>
